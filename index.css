@@ -1,0 +1,28 @@
+body,html,div,ul,li,p,form,input,button,a{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todo-list  li{
+    user-select: none;
+    margin: 8px;
+}
+
+.add-todo-input{
+    height: 30px;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid black;
+    outline: none;
+}
+.add-todo-btn{
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: none;
+    padding: 4px;
+}
+.add-todo-form{
+    margin: 15px 0;
+}
